@@ -34,7 +34,7 @@
     {
       "type": "chef-solo",
       "cookbook_paths": ["./berks-cookbooks/"],
-      "run_list": ["mongodb_cookbook_v3.2.20::default"]
+      "run_list": ["'mongodb_cookbook_v3.2.20::default"]
     }
 
     ]
